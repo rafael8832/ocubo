@@ -8,7 +8,7 @@ export default function Inicio(){
             <br></br>
             <br></br>
 
-            <p className='instrucao'>1) Primeiramente, comecemos com  a PNL (Programação Neuro-Lingüística). 
+            <p className='instrucao'>1) Primeiramente, comecemos com  a PNL (Programação Neuro-Linguística). 
             <br></br>
             2) Peça para ela fechar os olhos e se imaginar em uma sala branca e vazia. 
              <br></br>
