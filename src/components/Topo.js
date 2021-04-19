@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Inicio(){
+export default function Topo(){
     return(
         <section className='Inicio'>
             <h1>A rotina do Cubo</h1>
@@ -16,3 +16,4 @@ export default function Inicio(){
         </section>
     );
 };
+

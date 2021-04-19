@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 export default function Flores(){
     return(
@@ -59,7 +60,9 @@ export default function Flores(){
             </select>
         </div>
 
-        <button>Enviar Resultado</button>
+        <button>
+            <Link to="/Etapa5">Enviar Resultado</Link>
+        </button>
 
     </section>
     );

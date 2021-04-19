@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 export default function Tempestade(){
     return(
@@ -63,7 +64,9 @@ export default function Tempestade(){
             </select>
         </div>
 
-        <button>Enviar Resultado</button>
+        <button>
+            <Link to="/Etapa4">Enviar Resultado</Link>
+        </button>
 
     </section>
     );
