@@ -8,11 +8,11 @@ export default function Topo(){
             <br></br>
             <br></br>
 
-            <p className='instrucao'>1) Primeiramente, comecemos com  a PNL (Programação Neuro-Linguística). 
+            <p className='instrucao'>1- Primeiramente, comecemos com  a PNL (Programação Neuro-Linguística). 
             <br></br>
-            2) Peça para ela fechar os olhos e se imaginar em uma sala branca e vazia. 
+            2- Peça para ela fechar os olhos e se imaginar em uma sala branca e vazia. 
              <br></br>
-            3) A partir daí, faça as Etapas abaixo:</p>
+            3- A partir daí, faça as Etapas abaixo:</p>
         </section>
     );
 };

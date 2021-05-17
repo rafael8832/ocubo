@@ -1,35 +1,20 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-
-
 import '../App.css';
-
-
-
-    function lista() {
-    let ques = document.getElementById ("cuboselect");
-    let resp = ques.options[ques.selectedIndex].text;
-
-    document.getElementById("resultado").innerHTML=resp;
-
-    //alert('teste');
-
-  }
-
-
 
 export default function Cubo(){
 
     return(
+
         <section className="O-Cubo">
-        
+
         <h2>Etapa 1 - O Cubo</h2>
 
         <div className="question">
             <h3>-Qual é o tamanho dele?</h3>
             <select name="" id="cuboselect">
-                <option ivalue="1"selected>Grande</option>
+                <option value="1"selected>Grande</option>
                 <option value="2">Médio</option>
                 <option value="3">Pequeno</option>
             </select>
@@ -108,18 +93,14 @@ export default function Cubo(){
             </select>
         </div>
 
-        <button>
-            <Link to="/Etapa2" onMouseOver={lista}>Enviar Resultado</Link>
-        </button>
+        <div id="text" style={{backgroundColor: "white", width:"300px", height:"300px"}}></div>
 
-        <div className="teste" id="resultado">-----------------</div>
+        <button>
+            <Link to="/Etapa2">Enviar Resultado</Link>
+        </button>
 
     </section>
 
-
-
-
     );
+
 };
-
-

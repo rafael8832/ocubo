@@ -1,13 +1,9 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 
-export default function Resultado(){
+export default function Resultado(props){
 
     return(
-        <>
-         <div className="teste" id="resultado">-----------------</div>
-        </>
-
+            <h1>Resultado aqui {props.res}</h1>
         );
     };
     
