@@ -8,7 +8,9 @@ export default function Etapa6(){
     return(
         <>
             <Topo/>
-            <Resultado res="Rafael"/>
+            <AuthProvider>
+                <Resultado/>
+            </AuthProvider>
             <Rodape/>
         </>
     );
