@@ -1,14 +1,8 @@
-import React, {useContext} from 'react';
-import Context from '../state/Context';
+import React from 'react';
 
 export default function Resultado(){
-    const Context = useContext (AuthContext);
-
     return(
-        <>
             <h1>Resultado aqui   "aqui o codigo do context, do componente cubo, div resultado do state"</h1>
-        </>
-
         );
     };
     

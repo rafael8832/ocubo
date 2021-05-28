@@ -130,9 +130,6 @@ export default function Cubo(){
             </select>
         </div>
 
-        
-
-
         <div id="text" style={{backgroundColor: "white", width:"300px", height:"500px"}}>
             <p>{valorq1}</p>
                 <br/>
@@ -153,8 +150,7 @@ export default function Cubo(){
             <p>{valorq9}</p>
                 <br/>
         </div>
-
-       
+     
         <button> <Link to="/Etapa2">Enviar Resultado</Link></button>
 
         </section>
